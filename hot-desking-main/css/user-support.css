@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+div.nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  1px solid grey; 
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+
+}
+
+#lg {
+    height: 40px;
+    padding-left: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#right-side {
+    display: flex;
+    align-items: center;
+}
+
+div#right-side:hover {
+    color: #0d6efd;
+    background-color: #E5F5FF;
+    font-weight: bold;
+}
+
+h6 {
+    margin-right: 12px;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 30px;
+    border: none;
+}
+
+.dropdown-menu{
+    margin-top: 20px;
+
+}
+
+.mid-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 60px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("—Pngtree—background biru keren dan polos_1720583.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right, #2a42a143, #0c72e7ec);
+}
+
+.big-txt{
+    margin-left: 120px;
+
+}
+
+.big-txt h1 {
+    font-size: 50px;
+}
+
+.big-txt button {
+    margin-top: 20px;
+    left: 458px;
+    margin-bottom: 20px;  
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #3256e7;
+    border-style: none;
+    cursor: pointer;
+    width: 25%;
+    font-weight: 600;
+    color: #fff;
+    transition: .3s;
+    
+}
+
+.big-txt button:hover{
+    transform: translateY(-5px);
+    background:  #3e28c0;   
+}
+
+.img-hero{
+    margin-right: 100px;
+}
+
+
+.self{
+
+    text-align: center;
+    width: 100%;
+    height: 107vh;
+    padding-top: 65px;
+    background-image: linear-gradient(#ffffffb3, rgb(186, 203, 248)),url(/img/aditya-saxena-_mIXHvl_wzA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 40px;
+
+}
+
+.self p{
+    color: rgb(99, 100, 110);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;  
+}
+
+.row{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-col{
+    flex-basis: 31%;
+    background: rgb(131, 170, 221);
+    border-radius: 10px;
+    margin-top: -2.5%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.column-col img{
+    width: 250px;
+    height: 200px;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.column-col:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+
+}
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #ffff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 9%;
+}
+
+.hero-btn1:hover{
+    border: 1px solid #ffffff;
+    background: white;
+    transition: 1s;
+}
+.column-col ul{
+    text-align: justify;
+    margin-left: 15%;
+    text-align: start;
+
+}
+

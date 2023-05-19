@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.nav {
+    height: 80px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  1px solid grey;
+    
+}
+
+.click {
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.click, .links {
+    transition: 0.3s;
+}
+
+.list {
+    position: absolute;
+    right: 22px;
+    top: 60px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+    border: 2px black;
+}
+
+.links {
+    display: flex;
+    width: 70px;
+    padding: 12px;
+    margin: 2px;
+}
+
+.click:hover {
+    cursor: pointer;
+}
+
+.newlist {
+    transform: scaleY(1);
+}
+
+.links:hover {
+    transform: scale(1.1);
+}
+
+#lg {
+    height: 70px;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+
+#profile-container {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#faq {
+    margin-right: 800px;
+}
+
+button {    
+    padding: 10px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    border-style: none;
+    cursor: pointer;
+    width: 25%;
+    font-weight: 600;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.left-div {
+    height: 94vh;
+    background-color: #CCEBFF;
+    width: 5%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.left-div h4 {
+    margin-top: 10px;
+    font-size: 18;
+    padding: 5px;
+    margin: 10px;
+}
+
+.left-div h4:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #009DFF;
+}
+
+.mid-div {
+    height: 94vh;
+    width: 75%;
+}
+
+.mid-div img {
+    height: 100%;
+    width: 100%;
+}
+
+.right-div {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #f7f7f7;
+}
+
+* select {
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 70%;
+    border: 2px solid #E5F5FF;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+#work {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+* label {
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#sub {
+    margin-left: 20px;
+    width: 100px;
+    margin-top: 10px;
+}
